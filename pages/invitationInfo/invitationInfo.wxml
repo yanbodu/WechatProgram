@@ -1,0 +1,25 @@
+<view class="invitation-text"><b>Invitation</b></view>
+<view class="container">
+  <view class="userinfo">
+    <block>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="../images/avatar.png" mode="cover"></image>
+      <text class="userinfo-nickname">SpongeBob</text>
+    </block>
+  </view>
+  <view class="overlap-time">
+    Overlapped time:
+    <button class="overlap-time">17:00 - 18:30</button>
+  </view>
+  <view class="cuisine-type">
+    Cuisine type:
+    <button class="overlap-time">Korean</button>
+  </view>
+  <view class="note">
+    Note:
+    <button class="overlap-time">I found a good Korean restaurant!</button>
+  </view>
+  <view class="button-group">
+    <button class="accept" type="primary">Accept</button>
+    <button class="reject" type="warn">Unsure</button>
+  </view>
+</view>

@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/setInvitation/setInvitation",
-    "pages/searchingMatch/searchingMatch"
+    "pages/searchingMatch/searchingMatch",
+    "pages/invitationInfo/invitationInfo"
   ],
   "window":{
     "backgroundTextStyle":"light",
