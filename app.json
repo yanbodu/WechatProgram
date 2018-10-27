@@ -2,7 +2,7 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/setTime/setTime"
+    "pages/setInvitation/setInvitation"
   ],
   "window":{
     "backgroundTextStyle":"light",

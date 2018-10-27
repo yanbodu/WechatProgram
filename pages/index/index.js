@@ -52,7 +52,7 @@ Page({
   },
   goToFriendPage:function(){
     wx.navigateTo({
-      url: '../setTime/setTime',
+      url: '../setInvitation/setInvitation',
     })
   }
 })

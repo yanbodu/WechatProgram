@@ -1,0 +1,11 @@
+.fast-match{
+  width: 50%;
+  margin-top: -100rpx;
+}
+
+.divLine{
+  margin-top: 100rpx;
+  background: #E0E3DA;
+  width: 70%;
+  height: 5rpx;
+}
