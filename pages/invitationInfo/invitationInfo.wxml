@@ -19,7 +19,7 @@
     <button class="overlap-time">I found a good Korean restaurant!</button>
   </view>
   <view class="button-group">
-    <button class="accept" type="primary">Accept</button>
+    <button class="accept" type="primary" bindtap='bindViewTap'>Accept</button>
     <button class="reject" type="warn">Unsure</button>
   </view>
 </view>

@@ -1,0 +1,22 @@
+<view class="title-text"><b>Friends available</b></view>
+<view>
+  <view class="friend1">
+    <image class="userinfo-avatar" src="../images/patrick.png" mode="cover"></image>
+    <button class="button1" type="primary">Invite</button>
+  </view>
+  <image class="bar1" src="../images/bar1.png" mode="cover"></image>
+</view>
+<view>
+  <view class="friend1">
+    <image class="userinfo-avatar" src="../images/sandy.png" mode="cover"></image>
+    <button class="button1" type="primary">Invite</button>
+  </view>
+  <image class="bar1" src="../images/bar1.png" mode="cover"></image>
+</view>
+<view>
+  <view class="friend1">
+    <image class="userinfo-avatar" src="../images/octopus.png" mode="cover"></image>
+    <button class="button1" type="primary">Invite</button>
+  </view>
+  <image class="bar1" src="../images/bar1.png" mode="cover"></image>
+</view>

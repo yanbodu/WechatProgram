@@ -4,12 +4,47 @@
     "pages/logs/logs",
     "pages/setInvitation/setInvitation",
     "pages/searchingMatch/searchingMatch",
-    "pages/invitationInfo/invitationInfo"
+    "pages/invitationInfo/invitationInfo",
+    "pages/successInfo/successInfo",
+    "pages/account/account",
+    "pages/matchCandidates/matchCandidates"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#35495e",
+    "borderStyle": "white",
+    "backgroundColor": "#f9f9f9",
+    "list": [
+      {
+        "text": "Home",
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/images/home1.png",
+        "selectedIconPath": "pages/images/home2.png"
+      },
+      {
+        "text": "Match",
+        "pagePath": "pages/matchCandidates/matchCandidates",
+        "iconPath": "pages/images/eat1.png",
+        "selectedIconPath": "pages/images/eat2.png"
+      },
+      {
+        "text": "Invitation",
+        "pagePath": "pages/invitationInfo/invitationInfo",
+        "iconPath": "pages/images/flower1.png",
+        "selectedIconPath": "pages/images/flower2.png"
+      },
+      {
+        "text": "Account",
+        "pagePath": "pages/account/account",
+        "iconPath": "pages/images/account1.png",
+        "selectedIconPath": "pages/images/account2.png"
+      }
+    ]
   }
 }

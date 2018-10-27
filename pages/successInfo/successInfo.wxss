@@ -1,0 +1,17 @@
+.picCircle{
+  width: 400rpx;
+  height: 128rpx;
+  margin-top: 150rpx;
+  margin-left: 200rpx;
+  border-radius: 50%;
+}
+
+.weui-btn-area{
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 30%;
+}
+
+.text{
+  margin-top: -150rpx;
+}

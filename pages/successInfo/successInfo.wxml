@@ -1,0 +1,11 @@
+<view class="page">
+    <view class="page__hd"></view>
+    <view class="page__bd page__bd_spacing">
+        <view class="weui-article__p">
+          <image class="picCircle" src="../images/twoChickenLeg.png" mode="aspectfit" style="height: 180px" />
+        </view>
+    </view>
+    <view class="text">
+      <image class="picCircle" src="../images/matched.png" mode="aspectfit"/>
+    </view>
+</view>
