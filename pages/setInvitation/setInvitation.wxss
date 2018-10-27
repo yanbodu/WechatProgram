@@ -9,3 +9,43 @@
   width: 70%;
   height: 5rpx;
 }
+
+.detail-info{
+  margin-top: 100rpx;
+  margin-bottom: 1%;
+  width: 60%;
+}
+
+.date-picker{
+  margin-left: -1rpx;
+  width: 100%;
+}
+
+.time-info{
+  display: flex
+}
+
+.startTime-picker{
+  padding: 25rpx;
+}
+
+.endTime-picker{
+  padding: 25rpx;
+}
+
+.cuisine-type{
+  width: 50%;
+  padding-top: 30rpx;
+}
+
+.textarea{
+  background-color: gainsboro;
+  margin-top: 30rpx;
+  max-height: 200rpx;
+}
+
+.submit{
+  width: 40%;
+  margin-top: 10%;
+  color: darkgreen;
+}

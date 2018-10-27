@@ -1,0 +1,25 @@
+.picCircle{
+  width: 400rpx;
+  height: 128rpx;
+  margin-top: 150rpx;
+  margin-left: 200rpx;
+  border-radius: 50%;
+}
+
+.weui-btn-area{
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 30%;
+}
+.weui-progress{
+    margin-bottom: 10px;
+    margin-top: 15rpx;
+    margin-right: 130rpx;
+    margin-left:130rpx;
+}
+
+.text{
+  text-align: center;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}

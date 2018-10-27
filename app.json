@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/setInvitation/setInvitation"
+    "pages/setInvitation/setInvitation",
+    "pages/searchingMatch/searchingMatch"
   ],
   "window":{
     "backgroundTextStyle":"light",

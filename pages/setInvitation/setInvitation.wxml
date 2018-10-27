@@ -1,4 +1,24 @@
 <view class="container">
     <button class="fast-match"> Fast Match </button>
     <view class="divLine"></view>
+    <view class="detail-info">
+      <picker class="date-picker" mode="date" value="{{date}}"bindchange="bindDateChange">
+        <button type="default">{{date}}</button>
+      </picker>
+    </view>
+    <view class="time-info">
+      <picker class="startTime-picker" mode="time" value="{{time}}" start="00:00" end="23:59" bindchange="bindTimeChange">
+        <button type="default">{{time}}</button>
+      </picker> 
+      <picker class="endTime-picker" mode="time" value="{{time}}" start="00:00" end="23:59" bindchange="bindTimeChange">
+        <button type="default">{{time}}</button>
+      </picker>
+    </view>
+    <picker class="cuisine-type" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+      <button type="default">{{array[index]}}</button>
+    </picker>
+    <form bindsubmit="bindFormSubmit">
+      <textarea placeholder="Notes" name="textarea" class="textarea"/>
+      <button class="submit" form-type="submit">Submit</button>
+    </form>
 </view>
