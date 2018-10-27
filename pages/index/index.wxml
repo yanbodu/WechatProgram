@@ -7,8 +7,8 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-  <view class="button-group">
-    <button class="friend-button"> Friends </button>
+  <view wx:if="{{hasUserInfo && canIUse}}" class="button-group">
+    <button class="friend-button" bindtap="goToFriendPage"> Friends </button>
     <button class="stranger-button"> Strangers </button>
   </view>
 </view>
